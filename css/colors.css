@@ -1,0 +1,178 @@
+.color-primary-0 {
+  /* background-color: #F56600; */
+  background: #F56600;
+}
+
+/* Main Primary color */
+
+.color-primary-1 {
+  background-color: #FFA260
+}
+
+.color-primary-2 {
+  background-color: #FF8935
+}
+
+.color-primary-3 {
+  background-color: #C15000
+}
+
+.color-primary-4 {
+  background-color: #973F00
+}
+
+.color-secondary-1-0 {
+  background-color: #F59E00
+}
+
+/* Main Secondary color (1) */
+
+.color-secondary-1-1 {
+  background-color: #FFC660
+}
+
+.color-secondary-1-2 {
+  background-color: #FFB735
+}
+
+.color-secondary-1-3 {
+  background-color: #C17C00
+}
+
+.color-secondary-1-4 {
+  background-color: #976100
+}
+
+.color-secondary-2-0 {
+  background-color: #0F46A2
+}
+
+/* Main Secondary color (2) */
+
+.color-secondary-2-1 {
+  background-color: #5279BC
+}
+
+.color-secondary-2-2 {
+  background-color: #315FAD
+}
+
+.color-secondary-2-3 {
+  background-color: #0B3680
+}
+
+.color-secondary-2-4 {
+  background-color: #072964
+}
+
+.color-complement-0 {
+  background-color: #009A85
+}
+
+/* Main Complement color */
+
+.color-complement-1 {
+  background-color: #44B5A5
+}
+
+.color-complement-2 {
+  background-color: #22A492
+}
+
+.color-complement-3 {
+  background-color: #007968
+}
+
+.color-complement-4 {
+  background-color: #005F52
+}
+
+/* As RGBa codes */
+
+.rgba-primary-0 {
+  color: rgba(245, 102, 0, 1)
+}
+
+/* Main Primary color */
+
+.rgba-primary-1 {
+  color: rgba(255, 162, 96, 1)
+}
+
+.rgba-primary-2 {
+  color: rgba(255, 137, 53, 1)
+}
+
+.rgba-primary-3 {
+  color: rgba(193, 80, 0, 1)
+}
+
+.rgba-primary-4 {
+  color: rgba(151, 63, 0, 1)
+}
+
+.rgba-secondary-1-0 {
+  color: rgba(245, 158, 0, 1)
+}
+
+/* Main Secondary color (1) */
+
+.rgba-secondary-1-1 {
+  color: rgba(255, 198, 96, 1)
+}
+
+.rgba-secondary-1-2 {
+  color: rgba(255, 183, 53, 1)
+}
+
+.rgba-secondary-1-3 {
+  color: rgba(193, 124, 0, 1)
+}
+
+.rgba-secondary-1-4 {
+  color: rgba(151, 97, 0, 1)
+}
+
+.rgba-secondary-2-0 {
+  color: rgba( 15, 70, 162, 1)
+}
+
+/* Main Secondary color (2) */
+
+.rgba-secondary-2-1 {
+  color: rgba( 82, 121, 188, 1)
+}
+
+.rgba-secondary-2-2 {
+  color: rgba( 49, 95, 173, 1)
+}
+
+.rgba-secondary-2-3 {
+  color: rgba( 11, 54, 128, 1)
+}
+
+.rgba-secondary-2-4 {
+  color: rgba( 7, 41, 100, 1)
+}
+
+.rgba-complement-0 {
+  color: rgba( 0, 154, 133, 1)
+}
+
+/* Main Complement color */
+
+.rgba-complement-1 {
+  color: rgba( 68, 181, 165, 1)
+}
+
+.rgba-complement-2 {
+  color: rgba( 34, 164, 146, 1)
+}
+
+.rgba-complement-3 {
+  color: rgba( 0, 121, 104, 1)
+}
+
+.rgba-complement-4 {
+  color: rgba( 0, 95, 82, 1)
+}

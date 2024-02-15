@@ -1,0 +1,76 @@
+body {
+  min-height: 100vh;
+}
+a:hover:after{
+  width: 100%;
+  left: 0%;
+  background: black;
+}
+
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+}
+
+.cursor2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: .8;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+}
+
+.hover {
+  background-color: #f56600;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
+.index {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("../img/wall/wood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+#hello {
+  padding-top: 20vh;
+  padding-left: 5vh;
+  font-family: "AHAMONO";
+  color: white;
+  text-shadow: 2px 1px black;
+}
+
+#hi {
+  font-size: 3rem;
+  /* width: 100%; */
+}
+
+#dinamic {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .index {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+      url("../img/wall/wood.jpg");
+  }
+}

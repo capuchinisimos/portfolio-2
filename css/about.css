@@ -1,0 +1,141 @@
+a:hover:after{
+  width: 100%;
+  left: 0%;
+  background: black;
+}
+
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+}
+
+.cursor2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: .8;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+}
+
+.hover {
+  background-color: #f56600;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
+.index {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("../img/wall/code.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+#presentacion {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../img/wall/code.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-attachment: fixed;
+  font-family: "JB";
+}
+
+#presentacion h2 {
+  font-size: 40px;
+}
+
+#presentacion p {
+  font-size: 0.9vw;
+}
+
+#hard,
+.card-body {
+  font-family: "AHAMONO";
+}
+
+footer,
+#hard {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border: 2px groove #009a85 !important;
+}
+
+#hard h2 {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 3em;
+}
+
+.barra h3 {
+  font-family: "AHAMONO";
+}
+
+#parallax2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../img/wall/code.jpg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+#parallax2 .card {
+  width: 25rem;
+  height: 20rem;
+}
+
+.icon {
+  width: 3vw;
+  height: 3vw;
+}
+
+@media screen and (max-width: 1300px) {
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  #presentacion p {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #presentacion p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #parallax2 .card {
+    width: 20rem;
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+}

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 350ms ease-out;
+  text-decoration: none;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Rockness";
+  src: url("Fuentes/Rockness.ttf");
+}
+
+@font-face {
+  font-family: "AHAMONO";
+  src: url("Fuentes/AHAMONO.otf");
+}
+
+@font-face {
+  font-family: "JB";
+  src: url("Fuentes/JetBrainsMono-Regular.ttf");
+}
+
+.navbar {
+  z-index: 100;
+  box-shadow: 0 2px 35px #f56600;
+  font-family: "AHAMONO";
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.name {
+  font-family: "Rockness";
+  -webkit-animation: lightUp 200ms 10;
+  animation: lightUp 200ms ease-out;
+}
+
+.name:hover {
+  -webkit-animation: lightUp 200ms infinite;
+  animation: lightUp 200ms infinite;
+}
+
+@keyframes lightUp {
+  0% {
+    text-shadow: 5px 4px #f56600, -5px -6px #22a492;
+  }
+  25% {
+    text-shadow: -5px -6px #f56600, 5px 4px #22a492;
+  }
+  50% {
+    text-shadow: 5px -4px #f56600, -8px 4px #22a492;
+  }
+  75% {
+    text-shadow: -8px -4px #f56600, -5px -4px #22a492;
+  }
+  100% {
+    text-shadow: -5px 0 #f56600, 5px -4px #22a492;
+  }
+}
+
+.card button,
+.card .btn {
+  background-color: #ff9000 !important;
+  border-color: rgba(255, 145, 0, 0) !important;
+}
+
+.card button,
+.card .btn:hover {
+  background: #22a492 !important;
+  transition: all 0.4s ease-in;
+}
+
+#navbarSupportedContent15 a,
+.cv a {
+  text-decoration: none;
+  background-image: linear-gradient(#f56600, #f56600);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.1s;
+}
+
+#navbarSupportedContent15 a:hover,
+a:focus {
+  background-size: 100% 1px;
+}
+
+#footer {
+  align-self: flex-end;
+  line-height: 100px;
+  text-align: center;
+  font-family: "JB";
+}
+
+footer h5 {
+  font-size: 1rem;
+}
+
+footer .fa-heart {
+  color: #f56600;
+}
+
+.icon-3d {
+  text-emphasis: none;
+  padding: 10px;
+  -webkit-animation: lightUp 200ms 10;
+  animation: lightUp 200ms ease-out;
+  font-size: 1.2rem;
+}
+
+.icon-3d:hover {
+  -webkit-animation: lightUp 200ms infinite;
+  animation: lightUp 200ms infinite;
+}
+#img_idioma{width: 40px; height: 40px;}
+@media screen and (max-width: 1000px) {
+  #hello {
+    padding-top: 15vh;
+  }
+  #hi {
+    font-size: 2.5rem;
+  }
+  #dinamic {
+    font-size: 1.5rem;
+  }
+  footer h5 {
+    font-size: 0.8rem;
+  }
+  #img_idioma
+  {width: auto;
+  height: 40px;}
+  body {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+      url("../img/wall/wall%20(5.html).jpg");
+	 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #pres {
+    font-size: 0.7rem;
+  }
+  #img_idioma{ width: auto;height: 40px;}
+}
